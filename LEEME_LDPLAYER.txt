@@ -1,0 +1,161 @@
+====================================================================
+ GEMINI ONE PORTABLE - Guia completa y comandos (LDPlayer Windows)
+====================================================================
+
+Este paquete ya incluye Python 3.11 portable, frida 16.7.19, adb.exe,
+los scripts traducidos al espanol y la cache de frida-server x86_64.
+NO necesitas instalar Python ni ejecutar pip en tu PC.
+
+--------------------------------------------------------------------
+1. REQUISITOS EN EL PC DEL USUARIO (LDPlayer)
+--------------------------------------------------------------------
+1) Descarga e instala **LDPlayer 9** (Android 9 de 64 bits).
+   IMPORTANTE: No uses LDPlayer 4 / LDPlayer 5 (Android 7.1), porque
+   Google Play Store bloquea la instalacion de Google One en Android 7.
+
+2) Abre LDPlayer 9, entra en Ajustes (icono de engranaje) -> Otros ajustes:
+   - Permiso Root: Activar
+   - Depuracion ADB: Abrir conexion local
+   Guarda los cambios y REINICIA LDPlayer 9.
+
+3) Dentro de LDPlayer 9:
+   - Inicia sesion en Google Play Store con tu cuenta de Google.
+   - Instala la app "Google One" desde Play Store y abrela una vez.
+
+--------------------------------------------------------------------
+2. COMO USAR ESTA CARPETA PORTABLE
+--------------------------------------------------------------------
+1) Descomprime toda la carpeta "GEMINI-ONE-PORTABLE" en cualquier lugar
+   (Escritorio, disco D:, pendrive, etc.). No muevas archivos sueltos.
+2) Con LDPlayer 9 encendido, haz doble clic en:
+      INICIAR.bat
+3) Elige primero la opcion [1] Diagnosticar entorno (probe_env.py).
+   Cuando veas "Cadena de inyeccion funcionando", ya puedes usar el menu.
+
+--------------------------------------------------------------------
+3. TODOS LOS COMANDOS (OPCION [7] CONSOLA CMD DE INICIAR.BAT)
+--------------------------------------------------------------------
+Si abres la opcion [7] Consola CMD dentro de INICIAR.bat, ya quedas
+ubicado en "google-one-tools" con Python portable y adb en el PATH.
+
+(Si prefieres ejecutarlos desde una consola propia en la raiz de
+GEMINI-ONE-PORTABLE, sustituye "python -B " por:
+  python\python.exe -B google-one-tools\ )
+
+--- A. Diagnostico y ADB ---
+
+1) Diagnostico completo (Frida + root + frida-server + Play Store + Google One):
+   python -B probe_env.py
+   python -B probe_env.py emulator-5554
+
+2) Depurar todos los eventos crudos de una consulta (si todo devuelve vacio):
+   python -B scan_debug.py emulator-5554
+   python -B scan_debug.py emulator-5554 --sku g1.2tb --sku g1.20tb
+
+3) Comandos utiles de ADB:
+   adb devices -l
+   adb -s emulator-5554 reboot
+   adb -s emulator-5554 install ruta\archivo.apk
+   adb -s emulator-5554 shell rm /data/local/tmp/frida-server
+
+--- B. Escaneo y consulta de ofertas (SOLO LECTURA, SIN RIESGO) ---
+
+1) Escanear los 70 SKUs candidatos (muestra pruebas gratis $0 + precios):
+   python -B scan_all.py
+   python -B scan_all.py emulator-5554
+   python -B scan_all.py --sku g1.20tb --sku g1.2tb.6months_eft
+
+2) Consultar SKUs especificos (con tokens y precios):
+   python -B query_sku.py g1.20tb g1.30tb
+   python -B query_sku.py emulator-5554 g1.20tb g1.30tb
+
+3) Consultar de una vez planes Ultra + pruebas gratis mas comunes:
+   python -B query_sku.py g1.play.20tb g1.20tb g1.20tb.3months_ip_75p.acq g1.play.ai.pro g1.30tb g1.2tb.ai.subs_variant g1.play.helium g1.2tb.6months_eft
+
+4) Escaneo exhaustivo (descubre SKUs en el dispositivo + genera scan_result_all.json y SKU-清单.md):
+   python -B scan_everything.py
+   python -B scan_everything.py emulator-5554
+   python -B scan_everything.py --tag us --json-only
+   python -B scan_everything.py --render-only
+
+5) Combinar JSONs regionales (scan_result_gb/us/hk/tr/in.json -> SKU-清单.md):
+   python -B render_multi.py
+
+--- C. Abrir checkout en el emulador (launch_checkout.py) ---
+NOTA: Solo abre la pantalla de pago de Play Store; NO pulsa "Suscribirse".
+Sin embargo, abrir el checkout puede consumir la elegibilidad de prueba
+gratuita de esa cuenta aunque canceles sin pagar.
+Nota tecnica: launch_checkout.js toma la primera oferta devuelta para el SKU.
+
+1) Comandos para planes ULTRA:
+   * Ultra 20 TB - descuento 3 meses (funciona en regiones US, GB y HK; no en TR/IN):
+     python -B launch_checkout.py --sku g1.20tb.3months_ip_75p.acq
+
+   * Ultra 20 TB estandar / Play:
+     python -B launch_checkout.py --sku g1.20tb
+     python -B launch_checkout.py --sku g1.20tb.v2
+     python -B launch_checkout.py --sku g1.play.20tb
+
+   * Ultra 30 TB (retirado en muchas regiones; verificar primero con query_sku.py):
+     python -B launch_checkout.py --sku g1.30tb
+     python -B launch_checkout.py --sku g1.play.ai.pro
+     python -B launch_checkout.py --sku g1.ai.pro
+
+   * Con instancia especifica:
+     python -B launch_checkout.py --sku g1.20tb emulator-5554
+
+2) Comandos para PRUEBAS GRATIS (verifica primero con scan_all.py cuales tiene tu cuenta):
+   * SKUs dedicados de prueba gratuita (solo tienen esa oferta):
+     python -B launch_checkout.py --sku g1.2tb.6months_eft
+     python -B launch_checkout.py --sku g1.2tb.3months_eft
+     python -B launch_checkout.py --sku g1.2tb.1month_eft
+     python -B launch_checkout.py --sku g1.200gb.3months_eft
+     python -B launch_checkout.py --sku g1.200gb.1month_eft
+     python -B launch_checkout.py --sku g1.100gb.3months_eft
+     python -B launch_checkout.py --sku g1.100gb.1month_eft
+     python -B launch_checkout.py --sku g1.30gb.1month_eft
+
+   * SKUs multi-oferta (toma la primera oferta que devuelva Play para tu cuenta):
+     python -B launch_checkout.py --sku g1.2tb.ai.subs_variant
+     python -B launch_checkout.py --sku g1.2tb.subs_variant
+     python -B launch_checkout.py --sku g1.play.helium
+
+--------------------------------------------------------------------
+4. REFERENCIA RAPIDA DE SKUs PRINCIPALES
+--------------------------------------------------------------------
+- Almacenamiento basico:
+  g1.30gb | g1.100gb | g1.200gb | g1.2tb | g1.5tb | g1.10tb | g1.20tb | g1.30tb
+- Anuales (agregar .annual donde exista):
+  g1.30gb.annual | g1.100gb.annual | g1.200gb.annual | g1.2tb.annual | g1.5tb.annual | g1.10tb.annual
+- AI Plus 400 GB (pruebas 12/6/3/1 meses segun cuenta):
+  g1.play.helium
+- AI Pro 5 TB (pruebas 12/6 meses segun cuenta):
+  g1.2tb.ai.subs_variant
+- Ultra 20 TB:
+  g1.20tb | g1.20tb.v2 | g1.play.20tb | g1.20tb.3months_ip_75p.acq (descuento 3m en US/GB/HK)
+- Ultra 30 TB:
+  g1.30tb | g1.ai.pro | g1.play.ai.pro
+
+--------------------------------------------------------------------
+5. MULTIPLES INSTANCIAS DE LDPLAYER (OPCIONAL)
+--------------------------------------------------------------------
+Si abres varias ventanas de LDPlayer a la vez, revisa sus nombres con:
+  adb devices
+Y especifica el serial por argumento o con la variable de entorno SERIAL:
+  set SERIAL=emulator-5556
+  python -B scan_all.py
+
+--------------------------------------------------------------------
+6. SOLUCION RAPIDA DE PROBLEMAS
+--------------------------------------------------------------------
+- "No se detecto ningun dispositivo" / aparece "offline":
+  Activa Depuracion ADB -> "Abrir conexion local" en LDPlayer 9 y
+  reinicia el emulador.
+- Si usas VPN en el PC o dentro del emulador y el checkout falla o
+  se queda colgado: excluye en Split Tunneling (o desconecta la VPN)
+  Google Play Store (com.android.vending), Google Play Services
+  (com.google.android.gms) y Google One (com.google.android.apps.subscriptions.red).
+- Si Play Store deja de responder tras abrir varios checkouts:
+  reinicia el emulador (adb -s emulator-5554 reboot).
+- Aviso: abrir el checkout (launch_checkout.py) puede consumir la
+  elegibilidad de prueba gratuita aunque no pulses "Suscribirse".

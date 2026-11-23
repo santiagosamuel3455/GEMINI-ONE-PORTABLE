@@ -1,0 +1,1174 @@
+{
+  "serial": "127.0.0.1:****",
+  "tag": "hk",
+  "candidates": 185,
+  "at": "2026-11-21 05:10",
+  "offers": [
+    {
+      "ev": "offer",
+      "product": "g1.100gb",
+      "title": "100 GB (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "15000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$15.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.100gb.1month_eft",
+      "title": "100 GB (Google One)",
+      "id": "freetrial",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "0",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 1,
+          "free": true,
+          "fmt": "免費"
+        },
+        {
+          "micros": "15000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$15.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.100gb.1month_eft",
+      "title": "100 GB (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "15000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$15.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.100gb.3months_eft",
+      "title": "100 GB (Google One)",
+      "id": "freetrial",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "0",
+          "cur": "HKD",
+          "period": "P13W1D",
+          "cycles": 1,
+          "free": true,
+          "fmt": "免費"
+        },
+        {
+          "micros": "15000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$15.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.100gb.3months_eft",
+      "title": "100 GB (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "15000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$15.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.100gb.3months_ip_85p.acq",
+      "title": "100 GB (Google One)",
+      "id": "introprice",
+      "token": "<REDACTED>",
+      "tags": "intro-pricing,play,promotional",
+      "phases": [
+        {
+          "micros": "2000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 3,
+          "free": false,
+          "fmt": "HK$2.00"
+        },
+        {
+          "micros": "15000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$15.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.100gb.3months_ip_85p.acq",
+      "title": "100 GB (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "15000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$15.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.100gb.annual",
+      "title": "100 GB (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "150000000",
+          "cur": "HKD",
+          "period": "P1Y",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$150.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.10tb",
+      "title": "Google AI Pro (10 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "399000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$399.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.10tb.annual",
+      "title": "Google AI Pro (10 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "3988000000",
+          "cur": "HKD",
+          "period": "P1Y",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$3,988.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.200gb",
+      "title": "200 GB (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "23000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$23.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.200gb.1month_eft",
+      "title": "200 GB (Google One)",
+      "id": "freetrial",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "0",
+          "cur": "HKD",
+          "period": "P4W3D",
+          "cycles": 1,
+          "free": true,
+          "fmt": "免費"
+        },
+        {
+          "micros": "23000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$23.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.200gb.1month_eft",
+      "title": "200 GB (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "23000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$23.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.200gb.3months_eft",
+      "title": "200 GB (Google One)",
+      "id": "freetrial",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "0",
+          "cur": "HKD",
+          "period": "P13W1D",
+          "cycles": 1,
+          "free": true,
+          "fmt": "免費"
+        },
+        {
+          "micros": "23000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$23.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.200gb.3months_eft",
+      "title": "200 GB (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "23000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$23.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.200gb.3months_ip_85p.acq",
+      "title": "200 GB (Google One)",
+      "id": "introprice",
+      "token": "<REDACTED>",
+      "tags": "intro-pricing,play,promotional",
+      "phases": [
+        {
+          "micros": "3000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 3,
+          "free": false,
+          "fmt": "HK$3.00"
+        },
+        {
+          "micros": "23000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$23.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.200gb.3months_ip_85p.acq",
+      "title": "200 GB (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "23000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$23.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.200gb.annual",
+      "title": "200 GB (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "230000000",
+          "cur": "HKD",
+          "period": "P1Y",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$230.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.20tb",
+      "title": "Google AI Ultra (20 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "799000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$799.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.20tb.3months_ip_75p.acq",
+      "title": "Google AI Ultra (20 TB) (Google One)",
+      "id": "introprice",
+      "token": "<REDACTED>",
+      "tags": "intro-pricing,play,promotional",
+      "phases": [
+        {
+          "micros": "199000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 3,
+          "free": false,
+          "fmt": "HK$199.00"
+        },
+        {
+          "micros": "799000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$799.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.20tb.3months_ip_75p.acq",
+      "title": "Google AI Ultra (20 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "799000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$799.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.20tb.v2",
+      "title": "Google AI Ultra (20 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "799000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$799.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.2tb",
+      "title": "Google AI Plus (2 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "79000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$79.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.2tb.1month_eft",
+      "title": "Google AI Plus (2 TB) (Google One)",
+      "id": "freetrial",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "0",
+          "cur": "HKD",
+          "period": "P4W3D",
+          "cycles": 1,
+          "free": true,
+          "fmt": "免費"
+        },
+        {
+          "micros": "79000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$79.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.2tb.1month_eft",
+      "title": "Google AI Plus (2 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "79000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$79.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.2tb.3months_eft",
+      "title": "Google AI Plus (2 TB) (Google One)",
+      "id": "freetrial",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "0",
+          "cur": "HKD",
+          "period": "P13W1D",
+          "cycles": 1,
+          "free": true,
+          "fmt": "免費"
+        },
+        {
+          "micros": "79000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$79.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.2tb.3months_eft",
+      "title": "Google AI Plus (2 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "79000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$79.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.2tb.3months_ip_85p.acq",
+      "title": "Google AI Plus (2 TB) (Google One)",
+      "id": "introprice",
+      "token": "<REDACTED>",
+      "tags": "intro-pricing,play,promotional",
+      "phases": [
+        {
+          "micros": "12000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 3,
+          "free": false,
+          "fmt": "HK$12.00"
+        },
+        {
+          "micros": "79000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$79.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.2tb.3months_ip_85p.acq",
+      "title": "Google AI Plus (2 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "79000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$79.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.2tb.6months_eft",
+      "title": "Google AI Plus (2 TB) (Google One)",
+      "id": "freetrial",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "0",
+          "cur": "HKD",
+          "period": "P26W2D",
+          "cycles": 1,
+          "free": true,
+          "fmt": "免費"
+        },
+        {
+          "micros": "79000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$79.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.2tb.6months_eft",
+      "title": "Google AI Plus (2 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "79000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$79.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.2tb.ai",
+      "title": "Google AI Pro (5 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "158000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$158.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.2tb.ai.annual",
+      "title": "Google AI Pro (5 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "1588000000",
+          "cur": "HKD",
+          "period": "P1Y",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$1,588.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.2tb.ai.subs_variant",
+      "title": "Google AI Pro (5 TB) (Google One)",
+      "id": "12months-eft",
+      "token": "<REDACTED>",
+      "tags": "eft,genai,play,promotional",
+      "phases": [
+        {
+          "micros": "0",
+          "cur": "HKD",
+          "period": "P1Y",
+          "cycles": 1,
+          "free": true,
+          "fmt": "免費"
+        },
+        {
+          "micros": "158000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$158.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.2tb.ai.subs_variant",
+      "title": "Google AI Pro (5 TB) (Google One)",
+      "id": "6months-eft",
+      "token": "<REDACTED>",
+      "tags": "eft,genai,play,promotional",
+      "phases": [
+        {
+          "micros": "0",
+          "cur": "HKD",
+          "period": "P6M",
+          "cycles": 1,
+          "free": true,
+          "fmt": "免費"
+        },
+        {
+          "micros": "158000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$158.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.2tb.ai.subs_variant",
+      "title": "Google AI Pro (5 TB) (Google One)",
+      "id": "6months-eft-2",
+      "token": "<REDACTED>",
+      "tags": "eft,genai,play,promotional",
+      "phases": [
+        {
+          "micros": "0",
+          "cur": "HKD",
+          "period": "P6M",
+          "cycles": 1,
+          "free": true,
+          "fmt": "免費"
+        },
+        {
+          "micros": "158000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$158.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.2tb.ai.subs_variant",
+      "title": "Google AI Pro (5 TB) (Google One)",
+      "id": "6months-eft-ss-2026",
+      "token": "<REDACTED>",
+      "tags": "eft,genai,play,promotional",
+      "phases": [
+        {
+          "micros": "0",
+          "cur": "HKD",
+          "period": "P6M",
+          "cycles": 1,
+          "free": true,
+          "fmt": "免費"
+        },
+        {
+          "micros": "158000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$158.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.2tb.ai.subs_variant",
+      "title": "Google AI Pro (5 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "158000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$158.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.2tb.annual",
+      "title": "Google AI Plus (2 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "799000000",
+          "cur": "HKD",
+          "period": "P1Y",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$799.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.2tb.subs_variant",
+      "title": "Google AI Plus (2 TB) (Google One)",
+      "id": "3months-eft",
+      "token": "<REDACTED>",
+      "tags": "eft,play,promotional",
+      "phases": [
+        {
+          "micros": "0",
+          "cur": "HKD",
+          "period": "P13W1D",
+          "cycles": 1,
+          "free": true,
+          "fmt": "免費"
+        },
+        {
+          "micros": "78000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$78.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.2tb.subs_variant",
+      "title": "Google AI Plus (2 TB) (Google One)",
+      "id": "6months-eft",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "0",
+          "cur": "HKD",
+          "period": "P6M",
+          "cycles": 1,
+          "free": true,
+          "fmt": "免費"
+        },
+        {
+          "micros": "78000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$78.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.2tb.subs_variant",
+      "title": "Google AI Plus (2 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "78000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$78.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.30tb",
+      "title": "Google AI Ultra (30 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "1199000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$1,199.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.5tb",
+      "title": "Google AI Pro (5 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "158000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$158.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.5tb.annual",
+      "title": "Google AI Pro (5 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "1588000000",
+          "cur": "HKD",
+          "period": "P1Y",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$1,588.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.ai.pro",
+      "title": "Google AI Ultra (30 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "1588000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$1,588.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.helium.3months_ip_75p.acq",
+      "title": "Google AI Plus (400 GB) (Google One)",
+      "id": "introprice",
+      "token": "<REDACTED>",
+      "tags": "intro-pricing,play,promotional",
+      "phases": [
+        {
+          "micros": "10000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 3,
+          "free": false,
+          "fmt": "HK$10.00"
+        },
+        {
+          "micros": "38000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$38.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.helium.3months_ip_75p.acq",
+      "title": "Google AI Plus (400 GB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "38000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$38.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.play.20tb",
+      "title": "Google AI Ultra (20 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "799000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$799.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.play.ai.pro",
+      "title": "Google AI Ultra (30 TB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "1588000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$1,588.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.play.helium",
+      "title": "Google AI Plus (400 GB) (Google One)",
+      "id": "eft-12mo",
+      "token": "<REDACTED>",
+      "tags": "eft,helium,play,promotional",
+      "phases": [
+        {
+          "micros": "0",
+          "cur": "HKD",
+          "period": "P1Y",
+          "cycles": 1,
+          "free": true,
+          "fmt": "免費"
+        },
+        {
+          "micros": "38000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$38.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.play.helium",
+      "title": "Google AI Plus (400 GB) (Google One)",
+      "id": "eft-1mo",
+      "token": "<REDACTED>",
+      "tags": "eft,helium,play,promotional",
+      "phases": [
+        {
+          "micros": "0",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 1,
+          "free": true,
+          "fmt": "免費"
+        },
+        {
+          "micros": "38000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$38.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.play.helium",
+      "title": "Google AI Plus (400 GB) (Google One)",
+      "id": "eft-3mo",
+      "token": "<REDACTED>",
+      "tags": "eft,helium,play,promotional",
+      "phases": [
+        {
+          "micros": "0",
+          "cur": "HKD",
+          "period": "P3M",
+          "cycles": 1,
+          "free": true,
+          "fmt": "免費"
+        },
+        {
+          "micros": "38000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$38.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.play.helium",
+      "title": "Google AI Plus (400 GB) (Google One)",
+      "id": "eft-6mo",
+      "token": "<REDACTED>",
+      "tags": "eft,helium,play,promotional",
+      "phases": [
+        {
+          "micros": "0",
+          "cur": "HKD",
+          "period": "P6M",
+          "cycles": 1,
+          "free": true,
+          "fmt": "免費"
+        },
+        {
+          "micros": "38000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$38.00"
+        }
+      ]
+    },
+    {
+      "ev": "offer",
+      "product": "g1.play.helium",
+      "title": "Google AI Plus (400 GB) (Google One)",
+      "id": "null",
+      "token": "<REDACTED>",
+      "tags": "",
+      "phases": [
+        {
+          "micros": "38000000",
+          "cur": "HKD",
+          "period": "P1M",
+          "cycles": 0,
+          "free": false,
+          "fmt": "HK$38.00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "ev": "offer",
+    "product": "g1.30gb",
+    "id": "null",
+    "micros": "1330550000",
+    "period": "P1M",
+    "token": "AYrTWi7A6ZWgNbekiBRiwE96oBjEV2W+E/jefcI61Ev04wrWEfLDfqQ7+6EzGNnlZO89UAngOic+1uqKcoT2"
+  },
+  {
+    "ev": "offer",
+    "product": "g1.100gb",
+    "id": "null",
+    "micros": "2975050000",
+    "period": "P1M",
+    "token": "AYrTWi7M/ONiNWv+hjaFmQ77fKZR8V5U3wE0whyjtpJGjGYrAvdA5KsVI3CqKe1mBykbLy6y4g=="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.200gb",
+    "id": "null",
+    "micros": "4470050000",
+    "period": "P1M",
+    "token": "AYrTWi7M/ONiNWv+hjaFmQ77fKZR8V5U3wE0whyjtpJGjGYrAvdA5KsVI3CqKe1mBykbLy6y4g=="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.2tb",
+    "id": "null",
+    "micros": "14935050000",
+    "period": "P1M",
+    "token": "AYrTWi7M/ONiNWv+hjaFmQ77fKZR8V5U3wE0whyjtpJGjGYrAvdA5KsVI3CqKe1mBykbLy6y4g=="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.5tb",
+    "id": "null",
+    "micros": "29885050000",
+    "period": "P1M",
+    "token": "AYrTWi7M/ONiNWv+hjaFmQ77fKZR8V5U3wE0whyjtpJGjGYrAvdA5KsVI3CqKe1mBykbLy6y4g=="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.10tb",
+    "id": "null",
+    "micros": "74735050000",
+    "period": "P1M",
+    "token": "AYrTWi7M/ONiNWv+hjaFmQ77fKZR8V5U3wE0whyjtpJGjGYrAvdA5KsVI3CqKe1mBykbLy6y4g=="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.20tb",
+    "id": "null",
+    "micros": "149485050000",
+    "period": "P1M",
+    "token": "AYrTWi7M/ONiNWv+hjaFmQ77fKZR8V5U3wE0whyjtpJGjGYrAvdA5KsVI3CqKe1mBykbLy6y4g=="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.100gb.annual",
+    "id": "null",
+    "micros": "29885050000",
+    "period": "P1Y",
+    "token": "AYrTWi7iNSiJiuzcnEM7fXxN63PGG/g05a4ue7SEBmBl8WH9rSFnOEJmag0nmbRdwFXyVFRU2w=="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.200gb.annual",
+    "id": "null",
+    "micros": "44835050000",
+    "period": "P1Y",
+    "token": "AYrTWi7iNSiJiuzcnEM7fXxN63PGG/g05a4ue7SEBmBl8WH9rSFnOEJmag0nmbRdwFXyVFRU2w=="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.2tb.annual",
+    "id": "null",
+    "micros": "149485050000",
+    "period": "P1Y",
+    "token": "AYrTWi7iNSiJiuzcnEM7fXxN63PGG/g05a4ue7SEBmBl8WH9rSFnOEJmag0nmbRdwFXyVFRU2w=="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.5tb.annual",
+    "id": "null",
+    "micros": "298985050000",
+    "period": "P1Y",
+    "token": "AYrTWi7iNSiJiuzcnEM7fXxN63PGG/g05a4ue7SEBmBl8WH9rSFnOEJmag0nmbRdwFXyVFRU2w=="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.30gb.1month_eft",
+    "id": "eft-1month",
+    "micros": "0",
+    "period": "P1M",
+    "token": "AYrTWi5QWD5gc0ZxMJHAAUvXbYRFJgI6w5vnF9PKIFg1DFQML36iijrmN5Vum7u9ty2JnHvt9JFLgsfGKwScJcfZaKttqn0hSX4Fnpdn9No="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.30gb.1month_eft",
+    "id": "null",
+    "micros": "1330550000",
+    "period": "P1M",
+    "token": "AYrTWi7A6ZWgNbekiBRiwE96oBjEV2W+E/jefcI61Ev04wrWEfLDfqQ7+6EzGNnlZO89UAngOic+1uqKcoT2"
+  },
+  {
+    "ev": "offer",
+    "product": "g1.100gb.1month_eft",
+    "id": "freetrial",
+    "micros": "0",
+    "period": "P1M",
+    "token": "AYrTWi6ITD1CAMcBk/ZURCGaO5NJ1h18ob9G67Ra79V3/UeCjY18sFxDvgSflRX3KmSC5aSeaM32w/Xxt06dYzBfysY="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.100gb.1month_eft",
+    "id": "null",
+    "micros": "2975050000",
+    "period": "P1M",
+    "token": "AYrTWi7M/ONiNWv+hjaFmQ77fKZR8V5U3wE0whyjtpJGjGYrAvdA5KsVI3CqKe1mBykbLy6y4g=="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.200gb.1month_eft",
+    "id": "freetrial",
+    "micros": "0",
+    "period": "P4W3D",
+    "token": "AYrTWi6ITD1CAMcBk/ZURCGaO5NJ1h18ob9G67Ra79V3/UeCjY18sFxDvgSflRX3KmSC5aSeaM32w/Xxt06dYzBfysY="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.200gb.1month_eft",
+    "id": "null",
+    "micros": "4470050000",
+    "period": "P1M",
+    "token": "AYrTWi7M/ONiNWv+hjaFmQ77fKZR8V5U3wE0whyjtpJGjGYrAvdA5KsVI3CqKe1mBykbLy6y4g=="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.2tb.1month_eft",
+    "id": "freetrial",
+    "micros": "0",
+    "period": "P4W3D",
+    "token": "AYrTWi6ITD1CAMcBk/ZURCGaO5NJ1h18ob9G67Ra79V3/UeCjY18sFxDvgSflRX3KmSC5aSeaM32w/Xxt06dYzBfysY="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.2tb.1month_eft",
+    "id": "null",
+    "micros": "14935050000",
+    "period": "P1M",
+    "token": "AYrTWi7M/ONiNWv+hjaFmQ77fKZR8V5U3wE0whyjtpJGjGYrAvdA5KsVI3CqKe1mBykbLy6y4g=="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.ai.pro",
+    "id": "null",
+    "micros": "298985050000",
+    "period": "P1M",
+    "token": "AYrTWi7A6ZWgNbekiBRiwE96oBjEV2W+E/jefcI61Ev04wrWEfLDfqQ7+6EzGNnlZO89UAngOic+1uqKcoT2"
+  },
+  {
+    "ev": "offer",
+    "product": "g1.2tb.ai",
+    "id": "null",
+    "micros": "29885050000",
+    "period": "P1M",
+    "token": "AYrTWi7M/ONiNWv+hjaFmQ77fKZR8V5U3wE0whyjtpJGjGYrAvdA5KsVI3CqKe1mBykbLy6y4g=="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.2tb.ai.subs_variant",
+    "id": "12months-eft",
+    "micros": "0",
+    "period": "P1Y",
+    "token": "AYrTWi4AWfNls0ytFEfgnhbJ88mGsg5eNfhh11Ux7wgbcCAv5fIIo3iyIe4WK2g5aNmwwjbqEcBOiiqLFe20VGBNRuvYx1PEuItCN+YAjg8="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.2tb.ai.subs_variant",
+    "id": "6months-eft",
+    "micros": "0",
+    "period": "P6M",
+    "token": "AYrTWi5jPgQBhT5EwMLCKjkwQo6XIuOvdKlPyJxK05wM2XhyBVfTYV9B3v/mEm5Hcyh1Us26j09+ZMkcZWZ5YrW1r97DvTkG3cnOogggzxM="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.2tb.ai.subs_variant",
+    "id": "6months-eft-2",
+    "micros": "0",
+    "period": "P6M",
+    "token": "AYrTWi6GYLNguF7cqHRBVtCaws4XpBMlI2qy4JbtbRkAEuYJ7C/Pgd+fAXP6vEmJ9P72lVdDgk+0GbSAo0ZNboYsHyCTN8kF5eJDnYNF2hX+/cfc"
+  },
+  {
+    "ev": "offer",
+    "product": "g1.2tb.ai.subs_variant",
+    "id": "6months-eft-ss-2026",
+    "micros": "0",
+    "period": "P6M",
+    "token": "AYrTWi4ajEfVZJAV9+/uoSk7c3/OEAP8wrloRmTZmf+ARCy1z3pmb3OFdGYN96d1ohjii/JNCtv7cboIygRFE59i8tjrb9PdZG/hdx/f5WWOv0HSZaMtJcldZMs="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.2tb.ai.subs_variant",
+    "id": "null",
+    "micros": "29885050000",
+    "period": "P1M",
+    "token": "AYrTWi7A6ZWgNbekiBRiwE96oBjEV2W+E/jefcI61Ev04wrWEfLDfqQ7+6EzGNnlZO89UAngOic+1uqKcoT2"
+  },
+  {
+    "ev": "offer",
+    "product": "g1.play.20tb",
+    "id": "null",
+    "micros": "149485050000",
+    "period": "P1M",
+    "token": "AYrTWi7A6ZWgNbekiBRiwE96oBjEV2W+E/jefcI61Ev04wrWEfLDfqQ7+6EzGNnlZO89UAngOic+1uqKcoT2"
+  },
+  {
+    "ev": "offer",
+    "product": "g1.play.ai.pro",
+    "id": "null",
+    "micros": "298985050000",
+    "period": "P1M",
+    "token": "AYrTWi7A6ZWgNbekiBRiwE96oBjEV2W+E/jefcI61Ev04wrWEfLDfqQ7+6EzGNnlZO89UAngOic+1uqKcoT2"
+  },
+  {
+    "ev": "offer",
+    "product": "g1.play.helium",
+    "id": "eft-12mo",
+    "micros": "0",
+    "period": "P1Y",
+    "token": "AYrTWi51Eo3HG0tq1J6SYr4u3FDCCxb6xSEEWHskaFwSA7Vn4y+Lfqlfy+Lbkx2T/xPi4uCRB71ZIn+weD0kHZsMgS6ogUiZ8hG9SA=="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.play.helium",
+    "id": "eft-1mo",
+    "micros": "0",
+    "period": "P1M",
+    "token": "AYrTWi7nBQ2Zn0z4s+QJOwg9kQRwH3+z+HXpzRqw9IIU4/C48vPvjH32Bub8SHrWq3YX+yI4g1wJgviYiLCobJNqc9DqRd9WZnDdaQ=="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.play.helium",
+    "id": "eft-3mo",
+    "micros": "0",
+    "period": "P3M",
+    "token": "AYrTWi4iJ8AzqZkDL53g/dcS7g93mZgiEBJANI0lOucBiUITWEYqCiwLsIXY7P62rmMWb+wFR4WW9tQlFrskR67oCzzwVHghPSs29w=="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.play.helium",
+    "id": "eft-6mo",
+    "micros": "0",
+    "period": "P6M",
+    "token": "AYrTWi5hXUkLGa1e7nBstxl4Z3cUcYWzHF38Xks304ClJj8yVxeFCwDg/pJg82w8w9xHsk8Wl5WNhYKk26LB9besC0kYJ6AvlXapJA=="
+  },
+  {
+    "ev": "offer",
+    "product": "g1.play.helium",
+    "id": "null",
+    "micros": "7460050000",
+    "period": "P1M",
+    "token": "AYrTWi7A6ZWgNbekiBRiwE96oBjEV2W+E/jefcI61Ev04wrWEfLDfqQ7+6EzGNnlZO89UAngOic+1uqKcoT2"
+  },
+  {
+    "ev": "offer",
+    "product": "g1.2tb.3months_ip_85p.acq",
+    "id": "introprice",
+    "micros": "2227550000",
+    "period": "P1M",
+    "token": "AYrTWi6m390S5L8/v/68ytX7FGefqs730Fb8RMphQ9nHXjRga2FTIto3+rL6WvPp4kNgYB2aQTdKr8S4mI6ehGhrLWAW4tti"
+  },
+  {
+    "ev": "offer",
+    "product": "g1.2tb.3months_ip_85p.acq",
+    "id": "null",
+    "micros": "14935050000",
+    "period": "P1M",
+    "token": "AYrTWi7M/ONiNWv+hjaFmQ77fKZR8V5U3wE0whyjtpJGjGYrAvdA5KsVI3CqKe1mBykbLy6y4g=="
+  }
+]
